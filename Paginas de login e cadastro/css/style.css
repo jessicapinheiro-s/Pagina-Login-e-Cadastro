@@ -119,41 +119,41 @@ body{
     border: var(--borda) solid 1px;
     border-radius: 8px;
 }
-#area-nome, #area-senha{
-    width:100%;
-    display: flex;
-    justify-content: space-between;
-}
 /*pagina de login*/
-.area-email, 
-.area-senha{
+.area-email-login, 
+.area-senha-login{
     width:100%;
     text-align: center;
 }
-.area-email input, 
-.area-senha input{
+.area-email-login input, 
+.area-senha-login input{
     width: 80%;
     height: 40px;
 }
-#area-nome input, 
-#area-senha input{
-    width: 45%;
-    height: 40px;
-    justify-content: space-between;
-}
-#area-email input{
-    width:100%;
-    height: 40px;
-}
-#area-email{
-	width:100%;
-}
-
 .area-botao-login{
     width:100%;
     text-align: center;
 }
-#area-botao{
+/*pag de cadastro*/
+.area-nome-cad input, 
+.area-senha-cad input{
+    width: 45%;
+    height: 40px;
+    justify-content: space-between;
+}
+.area-nome-cad, .area-senha-cad{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.area-email-cad input{
+    width:100%;
+    height: 40px;
+}
+.area-email-cad{
+	width:100%;
+}
+.area-botao-cad{
     width:100%;
     border-radius: 10px;
 	display: flex;
