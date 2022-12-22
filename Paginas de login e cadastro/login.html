@@ -9,26 +9,45 @@
 
 </head>
 <body>
-    <div id="container">
-        <header>
-            <h1>Login</h1>
-        </header>
-        <div id="area-img">
-            <img src="img/login.png" alt="imagem" id="imguser">
+    <section class="conteiner-principal">
+        <div class="container">
+            <header class="header">
+                <div class="logo">
+                    STORE
+                </div>
+                <div class="conteiner-menu">
+                    <nav class="menu">
+                        <ul>
+                            <li class="menu-item">Home</li>
+                            <li class="menu-item">Store</li>
+                            <li class="menu-item">VIP</li>
+                            <li class="menu-item">Contact</li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="imagem-logo-cad">
+                <img src="img/login.png" alt="">
+            </div>
+            <div class="fomr-cadastro">
+                <div class="formulario-login">
+                    <div class="title">
+                        <h2>LOGIN</h2>
+                    </div>
+                    <div class="area-email">
+                        <input type="text" id="inEmail" name="Email" placeholder=" Email" autocomplete="email" required>
+                    </div>
+                    <div class="area-senha">
+                        <input type="password " id="inSenha" name="Senha" placeholder=" Senha" required>
+                    </div>
+                    <div class="area-botao-login">
+                        <button id="btlogin">Login</button> 
+                    </div>
+                    <p id="entrar">Não tem cadastro? <a href="cadastro.html">Cadastrar</a></p>
+                </div>
+            </div>
         </div>
-        <form>
-            <div class="area-email">
-                <input type="text" id="inEmail" name="Email" placeholder=" Email" autocomplete="email" required>
-            </div>
-            <div class="area-senha">
-                <input type="password " id="inSenha" name="Senha" placeholder=" Senha" required>
-            </div>
-            <div class="area-botao-login">
-                <button id="btlogin">Login</button> 
-            </div>
-            <p id="entrar">Não tem cadastro? <a href="cadastro.html">Cadastrar</a></p>
-        </form>
-    </div>
-    
+
+    </section>
 </body>
 </html>

@@ -44,7 +44,8 @@ body{
     width: 100%;
 }
 .header .menu ul li{
-    color: #fff;
+    color: var(--font-color);
+
     font-weight: 600;
     font-size: 1.2rem;
     width: 100%;
@@ -81,18 +82,32 @@ body{
     display: flex;
     align-items: center;
 }
-/*formulario*/
+
+/*formulario login*/
+.formulario-login{
+    width: 70%;
+    margin: auto;
+}
+.formulario-login .title {
+    color: var(--font-color);
+    font-size: 1.5rem;
+    text-align: center;
+}
+.formulario-login div{
+    margin: 20px 0px ;
+}
+.formulario-login input{
+    background-color: #f1f1f11a;
+    border: var(--borda) solid 1px;
+    border-radius: 8px;
+}
+/*formulario cad*/
 .formulario{
     width: 70%;
     margin: auto;
 }
-.area-botao-login{
-    width: 60%;
-    padding: 60px;
-    margin: 100px 10px;
-}
 .formulario .title {
-    color: #fff;
+    color: var(--font-color);
     font-size: 1.5rem;
     text-align: center;
 }
@@ -148,16 +163,8 @@ body{
 label{
     color: var(--font-color);
 }
+#btCadastrar, 
 #btlogin{
-    width: 50%;
-    background-color: #7606b8;
-    color: var(--font-color);
-    border: none;
-    height: 40px;
-    padding: 10px;
-    border-radius: 10px;
-}
-#btCadastrar{
     width: 50%;
     background-color: #2e81c0;
     color: var(--font-color);
@@ -166,13 +173,19 @@ label{
     height: 40px;
     padding: 10px;
     font-size: 1.2rem;
+    border-radius: 10px;
 }
-#btCadastrar:hover, #btlogin:hover{
+#btCadastrar:hover, 
+#btlogin:hover{
 	background-color: #4072a0;
 }
 #entrar{
-    color: var(--font-color);
     text-align: center;
+    color: var(--font-color);
+}
+#entrar a{
+    color: #000;
+    text-decoration: none;
 }
 input::placeholder{
     color: var(--font-color);
